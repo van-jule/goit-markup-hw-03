@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="link logo" href="./"><span class="logo-part">Web</span>Studio</a>
+          <ul class="list site-nav">
+            <li class="item"><a class="link current" href="./">Студия</a></li>
+            <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list header-contacts">
+          <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero dark-bg">
+        <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="button" type="button">Заказать услугу</button>
+      </section>
+      <section class="benefits section">
+        <!--скрыть заголовок в css-->
+        <div class="container">
+          <h2 class="section-title visually-hidden">Наши преимущества</h2>
+          <ul class="list grid">
+            <li class="grid-item benefits-item">
+              <h3 class="list-title">Внимание к деталям</h3>
+              <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
+            <li class="grid-item benefits-item">
+              <h3 class="list-title">Пунктуальность</h3>
+              <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            </li>
+            <li class="grid-item benefits-item">
+              <h3 class="list-title">Планирование</h3>
+              <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            </li>
+            <li class="grid-item benefits-item">
+              <h3 class="list-title">Современные технологии</h3>
+              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about section">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list grid">
+            <li class="grid-item about-item">
+              <img src="./images/about/img-1.jpg" width="370" height="294" alt="Веб-разработка" />
+            </li>
+            <li class="grid-item about-item">
+              <img src="./images/about/img-2.jpg" width="370" height="294" alt="Создание мобильных приложений" />
+            </li>
+            <li class="grid-item about-item">
+              <img src="./images/about/img-3.jpg" width="370" height="294" alt="Цветовые решения в веб-дизайне" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="team section">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list grid">
+            <li class="team-item grid-item">
+              <img src="./images/team/img-1.jpg" width="270" height="260" alt="Игорь Демьяненко" />
+              <h3 class="team-member-title">Игорь Демьяненко</h3>
+              <p class="team-member-position" lang="en">Product Designer</p>
+            </li>
+            <li class="team-item grid-item">
+              <img src="./images/team/img-2.jpg" width="270" height="260" alt="Ольга Репина" />
+              <h3 class="team-member-title">Ольга Репина</h3>
+              <p class="team-member-position" lang="en">Frontend Developer</p>
+            </li>
+            <li class="team-item grid-item">
+              <img src="./images/team/img-1.jpg" width="270" height="260" alt="Николай Тарасов" />
+              <h3 class="team-member-title">Николай Тарасов</h3>
+              <p class="team-member-position" lang="en">Marketing</p>
+            </li>
+            <li class="team-item grid-item">
+              <img src="./images/team/img-1.jpg" width="270" height="260" alt="Михаил Ермаков" />
+              <h3 class="team-member-title">Михаил Ермаков</h3>
+              <p class="team-member-position" lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer dark-bg">
+      <div class="container">
+        <a class="link logo footer-logo" href="./"><span class="logo-part">Web</span>Studio</a>
+        <address class="grid">
+          <a
+            class="link footer-address grid-item"
+            href="https://goo.gl/maps/jdCn2PC4iJVRVPya7"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            г. Киев, пр-т Леси Украинки, 26
+          </a>
+          <a class="link footer-mail grid-item" href="mailto:info@example.com">info@example.com</a>
+          <a class="link footer-tel grid-item" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
