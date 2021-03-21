@@ -191,7 +191,7 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  width: calc(100% / 12 * 5);
+  width: calc(100% / 12 * 6);
 }
 
 .header {
