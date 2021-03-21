@@ -133,6 +133,7 @@ address {
 }
 
 .project-filter-button {
+  background-color: #f5f4fa;
   min-width: 73px;
 
   font-family: var(--title-font);
@@ -190,7 +191,7 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  width: calc(100% / 12 * 7);
+  width: calc(100% / 12 * 5);
 }
 
 .header {
@@ -210,9 +211,8 @@ address {
 }
 
 .hero {
-  min-height: 100vh;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero .button {
@@ -366,6 +366,7 @@ address {
   font-size: 16px;
   line-height: 1.9;
   color: var(--main-text-color);
+  margin-bottom: 0;
 }
 
 .project-filter {
